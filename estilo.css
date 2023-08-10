@@ -1,0 +1,177 @@
+header {
+    background-image: url(./images/foto-vertical-de-um-lindo-ceu-estrelado.jpg);
+    background-size: cover;
+    height: 200px;
+    text-align: center;
+    color: white;
+}
+
+#apresentacao {
+    text-align: center;
+    position: relative;
+    bottom: 35%;
+    font-size: 30px;
+    opacity: 1;
+    color: rgb(156, 156, 255);
+}
+
+#apresentacao:hover {
+    opacity: 1;
+}
+
+h1 {
+    font-size: 100px;
+    padding-top: 1%;
+}
+
+body,html {
+    margin: auto;
+    border: solid 3px rgb(12, 0, 177);
+    background-color: rgb(102, 102, 253);
+    background-size: cover;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 38px;
+}
+
+h4 {
+    font-size: 28px;
+}
+
+img {
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+img:hover {
+    opacity: 1;
+}
+
+#cardapio {
+    background-image: url(./images/foto-vertical-de-um-lindo-ceu-estrelado.jpg);
+    background-size: cover;
+    height: 60px;
+    text-align: center;
+    color: rgb(156, 156, 255);
+}
+
+#topico {
+    text-align: center;
+    color: black;
+}
+
+.pudim {
+    text-align: left;
+    position: relative;
+    color: rgb(219, 219, 219);
+}
+
+.pudim:hover {
+    color: white;
+}
+
+.mousse {
+    text-align: right;
+    position: relative;
+    color: rgb(219, 219, 219);
+}
+
+.mousse:hover {
+    color: white;
+}
+
+.torta {
+    text-align: left;
+    position: relative;
+    color: rgb(219, 219, 219);
+}
+
+.torta:hover {
+    color: white;
+}
+
+.sorvete {
+    text-align: right;
+    position: relative;
+    color: rgb(219, 219, 219);
+}
+
+.sorvete:hover {
+    color: white;
+}
+
+#itens {
+    padding: 0% 10%;
+    clear: both;
+}
+
+footer {
+    clear: both;
+    text-align: right;
+    color: rgb(219, 219, 219);
+    font-size: 15px;
+    padding-right: 1%;
+    position: relative;
+    background-image: url(./images/foto-vertical-de-um-lindo-ceu-estrelado.jpg);
+    background-size: cover;
+    height: 270px;
+}
+
+.sobre {
+    position: absolute;
+    top: 0%;
+    right: 1%;
+    text-align: right;
+}
+
+.credito {
+    position: absolute;
+    top: 20%;
+    right: 1%;
+    text-align: right;
+}
+
+a:link {
+    color: white;
+}
+
+a:hover {
+    color: rgb(138, 137, 137);
+}
+
+a:visited {
+    color: rgb(253, 169, 169);
+}
+
+a:visited:hover {
+    color: rgb(219, 219, 219);
+}
+
+.contato {
+    text-align: left;
+    font-size: 20px;
+    padding: 0.5% 5%;
+    position: relative;
+    color: rgb(156, 156, 255);
+}
+
+.localizacao {
+    text-align: left;
+    font-size: 20px;
+    padding: 0% 5%;
+    position: relative;
+    bottom: 5%;
+    color: rgb(156, 156, 255);
+}
+
+.copyright {
+    position: absolute;
+    bottom: 0%;
+    right: 1%;
+    text-align: right;
+}
