@@ -16,7 +16,7 @@ header {
 
 #logo {
     display: flex;
-    margin: 0% 20% 50% 20%;
+    justtify-content: center;
     padding-top: 1%;
 }
 
@@ -121,6 +121,7 @@ h4 {
 footer {
     clear: both;
     display: flex;
+    justify-content: space-between;
     color: rgb(219, 219, 219);
     font-size: 17px;
     padding: 0% 1% 1% 1%;
@@ -129,19 +130,10 @@ footer {
     height: 270px;
 }
 
-#left {
-    width: 80%;
-}
-
 .contato, .localizacao {
     font-size: 20px;
     padding: 0% 5%;
     color: rgb(156, 156, 255);
-}
-
-#right {
-    width: 30%;
-    text-align: right;
 }
 
 .credito a:link {
