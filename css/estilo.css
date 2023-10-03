@@ -1,34 +1,43 @@
+body,html {
+    margin: auto;
+    border: ridge 5px black;
+    border-radius: 7px;
+    outline: solid 20px rgb(12, 0, 177);
+    background-color: rgb(102, 102, 253);
+    background-size: cover;
+}
+
 header {
-    background-image: url(./images/foto-vertical-de-um-lindo-ceu-estrelado.jpg);
+    background-image: url(./background/foto-vertical-de-um-lindo-ceu-estrelado.jpg);
     background-size: cover;
     height: 200px;
-    text-align: center;
     color: white;
 }
 
-#apresentacao {
-    text-align: center;
-    position: relative;
-    bottom: 35%;
-    font-size: 30px;
-    opacity: 1;
-    color: rgb(156, 156, 255);
+#logo {
+    display: flex;
+    margin: 0% 20% 50% 20%;
+    padding-top: 1%;
 }
 
-#apresentacao:hover {
-    opacity: 1;
+#logo img {
+    border-radius: 50%;}
+
+#marca {
+    text-align: center;
+    align-items: center;
+    margin-left: 2%;
+}
+
+#marca p {
+    margin: 1%;
+    font-size: 30px;
+    color: rgb(156, 156, 255);
 }
 
 h1 {
     font-size: 100px;
-    padding-top: 1%;
-}
-
-body,html {
-    margin: auto;
-    border: solid 3px rgb(12, 0, 177);
-    background-color: rgb(102, 102, 253);
-    background-size: cover;
+    margin: 0%;
 }
 
 h2 {
@@ -43,17 +52,8 @@ h4 {
     font-size: 28px;
 }
 
-img {
-    border-radius: 50%;
-    opacity: 0.5;
-}
-
-img:hover {
-    opacity: 1;
-}
-
 #cardapio {
-    background-image: url(./images/foto-vertical-de-um-lindo-ceu-estrelado.jpg);
+    background-image: url(./background/foto-vertical-de-um-lindo-ceu-estrelado.jpg);
     background-size: cover;
     height: 60px;
     text-align: center;
@@ -63,6 +63,19 @@ img:hover {
 #topico {
     text-align: center;
     color: black;
+}
+
+#itens {
+    padding: 0% 10%;
+}
+
+#itens img {
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+#itens img:hover {
+    opacity: 1;
 }
 
 .pudim {
@@ -105,73 +118,44 @@ img:hover {
     color: white;
 }
 
-#itens {
-    padding: 0% 10%;
-    clear: both;
-}
-
 footer {
     clear: both;
-    text-align: right;
+    display: flex;
     color: rgb(219, 219, 219);
-    font-size: 15px;
-    padding-right: 1%;
-    position: relative;
-    background-image: url(./images/foto-vertical-de-um-lindo-ceu-estrelado.jpg);
+    font-size: 17px;
+    padding: 0% 1% 1% 1%;
+    background-image: url(./background/foto-vertical-de-um-lindo-ceu-estrelado.jpg);
     background-size: cover;
     height: 270px;
 }
 
-.sobre {
-    position: absolute;
-    top: 0%;
-    right: 1%;
+#left {
+    width: 80%;
+}
+
+.contato, .localizacao {
+    font-size: 20px;
+    padding: 0% 5%;
+    color: rgb(156, 156, 255);
+}
+
+#right {
+    width: 30%;
     text-align: right;
 }
 
-.credito {
-    position: absolute;
-    top: 20%;
-    right: 1%;
-    text-align: right;
-}
-
-a:link {
+.credito a:link {
     color: white;
 }
 
-a:hover {
+.credito a:hover {
     color: rgb(138, 137, 137);
 }
 
-a:visited {
+.credito a:visited {
     color: rgb(253, 169, 169);
 }
 
-a:visited:hover {
+.credito a:visited:hover {
     color: rgb(219, 219, 219);
-}
-
-.contato {
-    text-align: left;
-    font-size: 20px;
-    padding: 0.5% 5%;
-    position: relative;
-    color: rgb(156, 156, 255);
-}
-
-.localizacao {
-    text-align: left;
-    font-size: 20px;
-    padding: 0% 5%;
-    position: relative;
-    bottom: 5%;
-    color: rgb(156, 156, 255);
-}
-
-.copyright {
-    position: absolute;
-    bottom: 0%;
-    right: 1%;
-    text-align: right;
 }

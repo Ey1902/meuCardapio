@@ -1,0 +1,218 @@
+@media all and (max-width: 1120px) {
+    header {
+        height: 180px;
+    }
+    #logo {
+        margin: 0% 15% 50% 15%;
+    }
+    h1 {
+        font-size: 85px;
+    }
+    #left {
+        width: 60%;
+    }
+    #right {
+        width: 40%;
+    }
+}
+
+@media all and (max-width: 930px) {
+    header {
+        height: 160px;
+    }
+    #logo {
+        margin: 0% 15% 50% 15%;
+    }
+    h1 {
+        font-size: 70px;
+    }
+    #cardapio {
+        height: 55px;
+    }
+    #itens {
+        padding: 0% 8%;
+    }
+    #left {
+        width: 55%;
+    }
+    #right {
+        width: 45%;
+    }
+}
+
+@media all and (max-width: 770px) {
+    header {
+        height: 140px;
+    }
+    #logo {
+        margin: 0% 10% 50% 10%;
+    }
+    #marca p {
+        font-size: 28px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    #cardapio {
+        height: 55px;
+    }
+    h2 {
+        font-size: 45px;
+    }
+    #itens {
+        padding: 0% 8%;
+    }
+    #itens img {
+        width: 45%;
+    }
+    footer {
+        font-size: 16px;
+        height: 250px;
+    }
+    .contato img, .localizacao img {
+        width: 10%;
+    }
+    #left {
+        width: 45%;
+    }
+    #right {
+        width: 55%;
+    }
+}
+
+@media all and (max-width: 590px) {
+    header {
+        height: 120px;
+    }
+    #logo {
+        margin: 0% 8% 50% 8%;
+    }
+    #marca p {
+        font-size: 25px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    #cardapio {
+        height: 50px;
+    }
+    h2 {
+        font-size: 38px;
+    }
+    
+    h3 {
+        font-size: 30px;
+    }
+    
+    h4 {
+        font-size: 25px;
+    }
+    #itens {
+        padding: 0% 5%;
+    }
+    footer {
+        height: 500px;
+        flex-direction: column;
+    }
+    .contato img, .localizacao img {
+        width: 15%;
+    }
+    #left {
+        width: 100%;
+    }
+    #right {
+        text-align: left;
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 475px) {
+    header {
+        height: 70px;
+    }
+    #logo {
+        margin: 0% 5% 50% 5%;
+    }
+    #marca {
+        margin-left: 0%;
+    }
+    #marca p {
+        visibility: hidden;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    #cardapio {
+        height: 40px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    
+    h3 {
+        font-size: 28px;
+    }
+    
+    h4 {
+        font-size: 25px;
+    }
+    #itens {
+        padding: 0% 3%;
+    }
+    #itens img {
+        width: 55%;
+    }
+    footer {
+        font-size: 15px;
+        height: 480px;
+    }
+}
+
+@media all and (max-width: 325px) {
+    header {
+        height: 180px;
+    }
+    #logo {
+        flex-direction: column;
+        margin: 0% 5% 50% 5%;
+        align-items: center;
+    }
+    #logo img {
+        width: 50%;
+    }
+    footer {
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 280px) {
+    header {
+        height: 160px;
+    }
+    #logo {
+        margin: 0% 1% 50% 1%;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    #cardapio {
+        height: 35px;
+    }
+    h2 {
+        font-size: 29px;
+    }
+    
+    h3 {
+        font-size: 26px;
+    }
+    
+    h4 {
+        font-size: 22px;
+    }
+    #itens {
+        padding: 0% 2%;
+    }
+    #itens img {
+        width: 70%;
+    }
+}
